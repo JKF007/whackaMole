@@ -1,0 +1,41 @@
+table{
+	padding-left:500px;
+	
+}
+
+td{
+	border: 1px solid #573b0c;	
+	border-radius: 25px;
+	height:180px;
+	width:180px;
+	padding: 10px;
+	background-color: #573b0c;
+	text-align:center;
+}
+
+.molePic{
+	width: 150px;
+	height: 115px;	
+}
+
+.value{
+	display: inline;
+}
+
+.valueName{
+	display:inline;
+	
+}
+
+.newLine{
+	display:block;
+}
+
+#score{
+	display: inline;
+}
+
+#startButton{
+	display:block;
+	padding: 5px;
+}

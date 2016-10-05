@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mole.css"/>		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="mole.js"></script>
+		<title> Whack a Mole</title>
+	
+	</head>
+	<body>
+		<h1>Whack a Mole</h1>
+		
+		<form>
+			time limit: <input type="text" name="Time" id="userTime"> <br>
+			<button type="button" id= "submitTime">edit round timer</button>
+		</form>
+		
+		<h3 class="valueName">score:</h3> <p id ="score">0</p>
+		
+		<div class ="newLine">
+			<h3 class="valueName">time:</h3> <p class ="value" id="time"></p>
+		</div>
+		
+		
+		<button type="button" id="startButton">click here to start/reset</button>
+		
+		<table>			
+			<tbody>
+				<tr>
+					<td><img id = "mole0" class="molePic" src="moleButton.jpg" ></td>	
+					<td><img id = "mole1" class="molePic" src="moleButton.jpg" ></td>	
+					<td><img id = "mole2" class="molePic" src="moleButton.jpg" ></td>
+				</tr>
+		
+				<tr>		
+					<td><img id = "mole3" class="molePic" src="moleButton.jpg" ></td>	
+					<td><img id = "mole4" class="molePic" src="moleButton.jpg" ></td>	
+					<td><img id = "mole5" class="molePic" src="moleButton.jpg" ></td>
+				</tr>
+		
+				<tr>		
+					<td><img id = "mole6" class="molePic" src="moleButton.jpg" ></td>	
+					<td><img id = "mole7" class="molePic" src="moleButton.jpg" ></td>	
+					<td><img id = "mole8" class="molePic" src="moleButton.jpg" ></td>
+				</tr>
+		
+			</tbody>
+		</table>
+	</body>
+</html>
+
+
